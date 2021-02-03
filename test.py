@@ -22,4 +22,13 @@ def gcd(a,b):
 # a = int('%.f'%(math.pow(3,50)))
 # print(a%13)
 
-print((-15*29)%13)
+# a = int(math.pow(3,4))
+# print(a%7)
+a = []
+for i in range(9):
+    if gcd(i,9) == 1:
+        a.append(i)
+print(len(a))
+print(a)
+
+print((21*17)%30)
