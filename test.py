@@ -32,6 +32,8 @@ def gcd(a,b):
 
 # print((21*17)%30)
 
-a = math.pow(3,50)
-print(a)
-print(a%13)
+# a = math.pow(3,50)
+# print(a)
+# print(a%13)
+
+print(gcd(1012,44))
