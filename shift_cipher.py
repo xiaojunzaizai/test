@@ -57,3 +57,8 @@ d = []
 for i in S:
    d.append(char_to_ind[i])
 print(d)
+
+e = []
+for i in m[0][0]:
+    e.append(char_to_ind[i])
+print(e)

@@ -36,4 +36,4 @@ def gcd(a,b):
 # print(a)
 # print(a%13)
 
-print(gcd(1012,44))
+print(gcd(45,216))

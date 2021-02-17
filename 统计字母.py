@@ -13,5 +13,5 @@ backS = [[v[1],v[0]] for v in items]
 backS.sort(reverse= True)
 
 for i in backS:
-    print(i[1] + ':', end ='  ')
-    print(i[0])
+    print(i[1] + ':', end =' ')
+    print(i[0], end= ', ')
