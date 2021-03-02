@@ -37,3 +37,11 @@ def gcd(a,b):
 # print(a%13)
 
 print(gcd(45,216))
+
+
+print(96%17)
+
+a = math.pow(2,192)
+b = math.pow(10,20)
+c = 4.73364*b
+print((a/c)*18)
