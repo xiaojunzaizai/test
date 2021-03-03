@@ -25,7 +25,6 @@ def algorithm(d):
     return s1,s2,result
 
 
-
 nodes = [9,9,9,8,7,6,6,4,4,3]
 s1,s2,result = algorithm(nodes)
 
