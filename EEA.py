@@ -25,6 +25,4 @@ def EEA(r0,r1):
     return new_t[i-1]
     
     
-
-
 print(EEA(640,49))
