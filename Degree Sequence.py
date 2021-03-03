@@ -35,7 +35,6 @@ da = []
 for i in range(1,len(nodes)+1):
     da.append(DA(nodes,i,3,I))    
 
-
 print('I(1,i): ', end = ' ')
 print(I)
 print('Da(1,i): ', end = ' ')
