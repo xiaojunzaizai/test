@@ -19,8 +19,8 @@ def gcd(a,b):
 #     a.append(result)
 
 # print(a)
-# a = int('%.f'%(math.pow(3,50)))
-# print(a%13)
+a = int('%.f'%(math.pow(31,7)))
+print(a%33)
 
 
 # a = []
