@@ -18,9 +18,9 @@ def ex_gcd(dividend, divisor):
     return x1, y1, remainder
 
 # 求 （4/3）对1000000007取模：取模结果为333333337
-mod = 17
+mod = 12
 x = 1
-y = 15
+y = 5
 inv, b, c = ex_gcd(y, mod)
 # print(a,b,c)
 ans = (x * inv) % mod
