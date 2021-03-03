@@ -26,7 +26,7 @@ def DA(d,i,k,I):
             return I[i-1]
     
 
-nodes = [7,6,6,5,5,4,2,2,1]
+nodes = [10,9 ,9, 8, 7, 7, 7, 7, 6, 6]
 
 I = []
 for i in range(1,len(nodes)+1):
@@ -35,6 +35,9 @@ da = []
 for i in range(1,len(nodes)+1):
     da.append(DA(nodes,i,3,I))    
 
+
+print('I(1,i): ', end = ' ')
 print(I)
+print('Da(1,i): ', end = ' ')
 print(da)
 

@@ -7,6 +7,7 @@ def algorithm(d):
         sum1 = sum1+ d[i]
         s1.append(sum1)
         sum2 = i*(i+1)
+        print(sum2,end = ' + ')
         for j in range(i+1,l):
             if i+1<=d[j]:
                 sum2 = sum2+i+1
@@ -25,7 +26,7 @@ def algorithm(d):
 
 
 
-nodes = [9,8,8,8,8,7,6,5,3,2]
+nodes = [9,9,9,8,7,6,6,4,4,3]
 s1,s2,result = algorithm(nodes)
 
 print(s1)

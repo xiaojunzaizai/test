@@ -14,9 +14,9 @@ def EEA(r0,r1):
     flag = 1
     print('i     qi-1     ri     si      ti')
     del q[0]
-    del r[:3]
-    del s[:3]
-    del t[:3]
+    del r[:2]
+    del s[:2]
+    del t[:2]
     print('------------------------------------')
     for j,k,l,m in zip(q,r,s,t):
         flag +=1
@@ -27,4 +27,4 @@ def EEA(r0,r1):
     
 
 
-print(EEA(67,12))
+print(EEA(640,49))
