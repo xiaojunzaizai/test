@@ -6,5 +6,5 @@ def gcd(a,b):
     else:
         return gcd(b,a%b)
 
-# print(math.pow(3,13)%59)
-print(35*3*48 % 59)
+print(math.pow(3,5)%5)
+
