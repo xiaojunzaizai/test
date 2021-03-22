@@ -6,35 +6,5 @@ def gcd(a,b):
     else:
         return gcd(b,a%b)
 
-# d = []
-
-# for i in range (26):
-#     d.append(gcd(i,26))
-# print(d)
-# a = []
-# shift = 0
-# for i in range(10):
-#     result = (i+shift)%5
-#     #remain = (shift+i)//5
-#     a.append(result)
-
-# print(a)
-# a = int('%.f'%(math.pow(31,7)))
-# print(a%33)
-
-
-# a = []
-# for i in range(9):
-#     if gcd(i,9) == 1:
-#         a.append(i)
-# print(len(a))
-# print(a)
-
-# print((21*17)%30)
-
-# a = math.pow(3,50)
-# print(a)
-# print(a%13)
-
-print((6+7+5)/56)
-print(9/28)
+# print(math.pow(3,13)%59)
+print(35*3*48 % 59)
