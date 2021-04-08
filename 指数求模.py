@@ -17,4 +17,4 @@ def mod(a,b,m):
     return result
 
 
-print(mod(3,11,59))
+print(mod(25,23,59))

@@ -6,5 +6,5 @@ def mod(a,b):
 # a = int('%.f'%(math.pow(31,7)))
 # print(a%33)
 
-print(mod(math.pow(5,123),17))
+print(mod(36*20,59))
 
