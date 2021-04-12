@@ -34,17 +34,29 @@ def DA(d,i,k,I):
             return I[i-1]
     
 
-nodes = [10,9 ,9, 8, 7, 7, 7, 7, 6, 6]
+def result (nodes,k):
+    I = []
+    for i in range(1,len(nodes)+1):
+        I.append(new_I_degree_sequence(nodes,1,i))
+    da = []
 
-I = []
-for i in range(1,len(nodes)+1):
-    I.append(new_I_degree_sequence(nodes,1,i))
-da = []
-for i in range(1,len(nodes)+1):
-    da.append(DA(nodes,i,3,I))    
+    for i in range(1,len(nodes)+1):
+        da.append(DA(nodes,i,k,I))  
+    
+    return I, da 
 
-print('I(1,i): ', end = ' ')
-print(I)
-print('Da(1,i): ', end = ' ')
-print(da)
+
+
+if __name__ == "__main__":
+
+    nodes = [10,9 ,9, 8, 7, 7, 7, 7, 6, 6]
+
+    k =3
+
+    I,da = result(nodes,k)
+
+    print('I(1,i): ', end = ' ')
+    print(I)
+    print('Da(1,i): ', end = ' ')
+    print(da)
 
