@@ -8,11 +8,11 @@ def power(x, y, mod):
  
     return r
 # (3/2) 对7 求模
-x = 7
-y = 5
+x = 5
+y = 1
 # mod = 100000000 + 7
 # 利用费马小定理求与（分母）逆元
-mod = 11
+mod = 24
 inv = power(y, mod - 2, mod)
 # 再求x分子乘以逆元取模
 ans = x * inv % mod
